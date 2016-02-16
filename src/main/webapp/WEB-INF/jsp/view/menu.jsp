@@ -129,7 +129,7 @@ body {
 		</br>
 		
 
-<div class="col-lg-4">
+<div class="col-md-4">
 	<fieldset>
 		<c:forEach items="${today}" var="menu" varStatus="status">
 			<c:choose>
@@ -184,7 +184,7 @@ body {
 
 
 <c:if test="${empty customer.userid}">
-		<div class="col-md-2">
+		<div class="col-md-4">
 			<legend>Enter Name to Pick up Order</legend>
 			<div class="form-group">
 				<label for="name">Name:</label> <input type="text"
@@ -226,7 +226,7 @@ body {
 		</div> <!--  END OF COL-MD-2 -->
 		
 </c:if>
- 		<div class="col-lg-3">	
+ 		<div class="col-md-4">	
 	<Legend>Other Day's Menu</Legend>
 	
 	<div class="table-responsive">
@@ -246,10 +246,13 @@ body {
 	</div> 	<!-- END OF TABLE RESPONSIVE -->
 
 		</div>	<!-- END OF COL-XS-4 -->
+		
 
-
-
-
+<div class="col-sm-2">	
+<a href="http://stackoverflow.com/users/4828463/faraz-durrani">
+<img src="http://stackoverflow.com/users/flair/4828463.png?theme=dark" width="208" height="58" alt="profile for Faraz Durrani at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Faraz Durrani at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+</div>	<!-- END OF COL-XS-4 -->
 		<script>
 			var total = 0;
 			function countmoney(x) {
