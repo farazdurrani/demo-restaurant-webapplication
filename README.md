@@ -1,3 +1,1 @@
-The OpenShift `jbossews` cartridge documentation can be found at:
-
-http://openshift.github.io/documentation/oo_cartridge_guide.html#tomcat
+Created a demo web application where users can go online and order food. It uses Bootstrap framework on the front-end, Spring MVC framework in the back end, Hibernate framework as a JPA vendor, and MySQL database server to store data. 
