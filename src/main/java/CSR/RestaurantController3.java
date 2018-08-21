@@ -46,7 +46,7 @@ public class RestaurantController3 {
 
 
 
-	//JUST TO HANDLE SINGLE ORDERS (ORDERS WITHOUT SIGNING UP). session ID is one way! I hope yusuf bhai accepts it 
+	//JUST TO HANDLE SINGLE ORDERS (ORDERS WITHOUT SIGNING UP). session ID is one way!
 	private long sessionID(){
 		ServletRequestAttributes attr = (ServletRequestAttributes) RequestContextHolder.currentRequestAttributes();
 		String sessionID = attr.getRequest().getSession().getId().replaceAll("[^\\d.]", "");
@@ -406,7 +406,7 @@ public class RestaurantController3 {
 
 			ra.asMap().clear(); //I DON'T REMEMBER WHY I ADDED THIS. THERE WAS A SOLID REASON FOR THIS. NOW I FORGOT. SHOULD HAVE PENNED DOWN THE REASON!
 
-			return "redirect:/youraccount";  //THE PROBLEM IS IT WILL SEND HIM TO .GET /YOURACCOUNT. NOT GOOD? ASK YUSUF BHAI
+			return "redirect:/youraccount";  //THE PROBLEM IS IT WILL SEND HIM TO .GET /YOURACCOUNT.
 		} else {		
 			customer.setUserid("");
 			customer.setPassword("");
